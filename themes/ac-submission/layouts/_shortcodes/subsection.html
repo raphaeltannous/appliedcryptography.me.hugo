@@ -1,0 +1,7 @@
+<div {{ with .Get "id" }}id="{{ . | urlize }}"{{ end }} class="subsection">
+  <h3 class="subsection-title"><i class="icon ph-duotone {{ .Get "iconClass" }}"></i>{{ .Get "title" }}</h3>
+
+  <div class="card {{ .Get "cardClass" }}">
+    {{ .Inner | .Page.RenderString }}
+  </div>
+</div>

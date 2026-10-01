@@ -1,0 +1,15 @@
+# Hugo
+/public/
+/resources/_gen/
+/exampleSite/public/
+/exampleSite/resources/
+jsconfig.json
+hugo_stats.json
+.hugo_build.lock
+
+# System
+.DS_Store
+.tmp*
+
+# JS
+node_modules

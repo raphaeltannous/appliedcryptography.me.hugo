@@ -1,0 +1,23 @@
+{{ define "main" }}
+  {{ if .Site.Params.hero.enabled }}
+    <div class="hero">
+      <div class="hero-content">
+        {{ with resources.Get "images/symbolicsoft-white.png" }}
+          <p class="hero-eyebrow"><img src="{{ .RelPermalink }}" alt="Symbolic Software" /></p>
+        {{ end }}
+        <h1>{{ .Site.Title }}</h1>
+
+        {{ with .Site.Params.hero.tagline }}
+          <p class="hero-tagline">{{.}}</p>
+        {{ end }}
+        {{ with .Site.Params.hero.meta }}
+          <p class="hero-meta">{{ . | safeHTML }}</p>
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+
+  <div class="container">
+    {{ .Content }}
+  </div>
+{{ end }}

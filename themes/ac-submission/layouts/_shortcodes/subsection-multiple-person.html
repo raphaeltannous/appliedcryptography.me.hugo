@@ -1,0 +1,12 @@
+<div class="card">
+  <div class="book-display">
+    {{ with .Page.Resources.Get (.Get "image") }}
+      <img src="{{ .RelPermalink }}" alt="{{ $.Get "name" }}" class="ta-photo" loading="lazy" />
+    {{ end }}
+    <div>
+      <h4 class="mb-2"><i class="icon ph-duotone ph-user"></i>{{ $.Get "name" }}</h4>
+
+      {{ .Inner }}
+    </div>
+  </div>
+</div>

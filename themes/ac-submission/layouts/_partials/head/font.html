@@ -1,0 +1,22 @@
+{{ with resources.Get "fonts/google/inriaserif/v18/fC14PYxPY3rXxEndZJAzN3wQUjjCjl2PaGxM.woff2"}}
+  <link rel="preload" as="font" type="font/woff2" href="{{ .RelPermalink }}" crossorigin />
+{{ end }}
+
+
+{{ with resources.Get "fonts/google/inriaserif/v18/fC1nPYxPY3rXxEndZJAzN3SuRy_lq3KnYmQ.woff2" }}
+  <link rel="preload" as="font" type="font/woff2" href="{{ .RelPermalink }}" crossorigin />
+{{ end }}
+
+{{/* Publishing all fonts so that they can be reached by CSS. */}}
+{{ range resources.Match "fonts/**/*.woff2" }}
+  {{ .Publish }}
+{{ end }}
+
+
+{{ with resources.Get "fonts/phosphor/phosphor.css" }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" />
+{{ end }}
+
+{{ with resources.Get "fonts/google/google.css" }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" />
+{{ end }}

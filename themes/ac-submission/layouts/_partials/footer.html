@@ -1,0 +1,7 @@
+<footer class="footer">
+  <div class="container">
+    {{ with resources.Get "images/license.svg" }}
+      <img src="{{ .RelPermalink }}" alt="LICENSE badge" loading="lazy" />
+    {{ end  }}
+  </div>
+</footer>

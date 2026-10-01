@@ -1,0 +1,17 @@
+<div {{ with .Get "title" }}id="{{ . | urlize }}"{{ end }} class="subsection">
+  <h3 class="subsection-title"><i class="icon ph-duotone {{ .Get "iconClass" }}"></i>{{ .Get "title" }}</h3>
+
+  <div class="card {{ .Get "cardClass" }}">
+    <div class="book-display">
+      {{ with .Page.Resources.Get (.Get "image") }}
+        <img src="{{ .RelPermalink }}" alt="{{ $.Get "name" }}" class="instructor-photo" loading="lazy" />
+      {{ end }}
+
+      <div>
+        <h4 class="mb-2"><i class="icon ph-duotone ph-user"></i>{{ .Get "name" }}</h4>
+
+        {{ .Inner | .Page.RenderString }}
+      </div>
+    </div>
+  </div>
+</div>

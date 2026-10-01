@@ -1,0 +1,34 @@
+baseURL = 'https://appliedcryptography.me/'
+locale = 'en-us'
+title = 'Applied Cryptography Projects Submission'
+
+theme = 'ac-submission'
+
+disableKinds = ['rss', '404', 'taxonomy', 'term']
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[menus]
+  [[menus.main]]
+    name = 'Overview'
+    pageRef = '/#overview'
+    weight = 10
+  [[menus.main]]
+    name = 'Submissions'
+    pageRef = '/#submissions'
+    weight = 20
+  [[menus.main]]
+    name = "Thanks To"
+    pageRef = '/#thanks-to'
+    weight = 30
+
+[params]
+  description = 'Applied·Cryptography·project·submissions·for·summer·2026.'
+  authors = 'Symbolic Software, Raphael Tannous'
+  keywords = 'applied cryptography, cryptography course, encryption, cryptographic protocols, cybersecurity education, project submission'
+
+  [params.hero]
+    enabled = true
+    tagline = "From provable security to real-world projects."
+    meta = "Summer 2026 &middot; Nadim Kobeissi &middot; CC BY-NC-SA 4.0"

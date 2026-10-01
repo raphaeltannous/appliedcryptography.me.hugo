@@ -1,0 +1,15 @@
+name = "ac-submission"
+license = "CC BY-NC-SA 4.0"
+
+licenselink = "https://codeberg.org/raphaeltannous/ac-submission/src/branch/master/LICENSE"
+
+description = "Applied cryptography theme like appliedcryptography.page for project submission."
+homepage = "https://codeberg.org/raphaeltannous/ac-submission"
+
+tags = ["blank", "blog", "dark", "dark mode", "development", "light", "minimal", "education", "plain", "starter", "project"]
+features = ["blog", "fast", "responsive"]
+
+authors = [
+  {name = "Dr. Nadim Kobeissi", homepage = "https://nadim.computer"},
+  {name = "Raphael Tannous", homepage = "https://riyt.dev"},
+]
