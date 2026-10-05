@@ -47,7 +47,7 @@ biases and you have to trust those systems that they are not altering the random
 
 In this part, I show how we can build a transparent LOTO system basing on the randomness
 provided by the [League of Entropy's drand](https://drand.love) network. The League of Entropy
-provide randomness that is unpredictable, publicly verifiable, bias-resistant, decentralized,
+provides randomness that is unpredictable, publicly verifiable, bias-resistant, decentralized,
 and always available.
 
 {{< ph-icon icon="ph-article" >}} **Article and Demo:** [goloto.appliedcryptography.me](https://goloto.appliedcryptography.me).
