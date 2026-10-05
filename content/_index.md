@@ -10,13 +10,15 @@ title: ''
 
 Applied Cryptography explores the core theory of modern cryptography and how to apply these fundamental principles to build and analyze real-world secure systems.
 
-The course website is at [appliedcryptography.page](https://appliedcryptography.page).
+The course's website is at [appliedcryptography.page](https://appliedcryptography.page).
 
 {{< /subsection >}}
 
 {{< subsection title="Submissions Overview" cardClass="card-highlight" iconClass="ph-projector-screen-chart" >}}
 
-This page contains submissions from the student attending this course in Summer 2026.
+This page contains submissions from students attending the course during Summer 2026.
+
+{{< ph-icon icon="ph-git-branch" >}} **Last Updated:** <span id="lastUpdated"><em>Loading</em></span>
 
 {{< /subsection >}}
 
