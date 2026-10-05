@@ -1060,7 +1060,7 @@ p>a.btn {
 	}
 
 	/* People stay visible on phones: stack their cards instead */
-	#overview .book-display {
+	.book-display {
 		flex-direction: column;
 		align-items: flex-start;
 	}
