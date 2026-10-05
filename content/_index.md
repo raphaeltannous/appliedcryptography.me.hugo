@@ -27,7 +27,7 @@ This page contains submissions from students attending the course during Summer 
 
 {{< section title="Submissions" >}}
 
-{{< subsection-person-span title="Randomness & Time-lock Encryption" image="images/raphaeltannous.jpg" name="Raphael Tannous" iconClass="ph-clock-countdown" cardClass="card-highlight" >}}
+{{< subsection-person-span title="Randomness & Time-Lock Encryption" image="images/raphaeltannous.jpg" name="Raphael Tannous" iconClass="ph-clock-countdown" cardClass="card-highlight" >}}
 
 Raphael is a cybersecurity student at the Lebanese American University.
 
@@ -39,11 +39,24 @@ Raphael is a cybersecurity student at the Lebanese American University.
 
 {{< card >}}
 
-Randomness is an important part of modern cryptography and everyday life...
+### Project Part 1: On Randomness
 
-{{< ph-icon icon="ph-article" >}} **Article:** TBA.
+Randomness plays an important role in modern cryptography and everyday life.
+Many systems rely on public randomness, but their randomness might contain some
+biases and you have to trust those systems that they are not altering the randomness.
 
-{{< ph-icon icon="ph-link" >}} **Demo:** TBA.
+In this part, I show how we can build a transparent LOTO system basing on the randomness
+provided by the [League of Entropy's drand](https://drand.love) network. The League of Entropy
+provide randomness that is unpredictable, publicly verifiable, bias-resistant, decentralized,
+and always available.
+
+{{< ph-icon icon="ph-article" >}} **Article and Demo:** [goloto.appliedcryptography.me](https://goloto.appliedcryptography.me).
+
+{{< ph-icon icon="ph-git-branch" >}} **Source Code:** [codeberg.org/raphaeltannous/goLOTO](https://codeberg.org/raphaeltannous/goLOTO).
+
+### Project Part 2: On Time-Lock Encryption
+
+{{< ph-icon icon="ph-article" >}} **Article and Demo:** TBA.
 
 {{< ph-icon icon="ph-git-branch" >}} **Source Code:** TBA.
 
